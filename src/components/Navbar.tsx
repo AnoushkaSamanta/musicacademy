@@ -21,9 +21,7 @@ function Navbar({ className }: { className?: string }) {
                 <HoveredLink href='/courses'>Song Writing</HoveredLink>
                 <HoveredLink href='/courses'>Music Production</HoveredLink>
           </div>
-               <Link href={"/"}>
-          <MenuItem setActive={setActive} active={active} item="Home"></MenuItem>
-          </Link>
+              
           </MenuItem>
           <Link href={"/contact"}>
           <MenuItem setActive={setActive} active={active} item="Contact Us"></MenuItem>
